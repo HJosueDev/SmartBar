@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">SmartBar</string>
+
+
+    <string name="myMixList">Lista de Mezclas</string>
+    <string name="addMix">Agregar una Mezcla</string>
+    <string name="detailsMix">Detalles de Mezcla</string>
+    <string name="preferences">Preferencias</string>
+
+    <!--Bebidas Disponibles-->
+    <string name="Bebida1">Vodka    </string>
+    <string name="Bebida2">Whisky   </string>
+    <string name="Bebida3">Tequila  </string>
+    <string name="Bebida4">Ron      </string>
+    <string name="Bebida5">Ginebra</string>
+    <string name="Bebida6">Brandy</string>
+    <string name="Bebida7">Pisco</string>
+    <string name="Bebida8">Coñac</string>
+
+
+    <string name="prueba">PRUEBA</string>
+    <string name="nameMix">Nombre de la mezcla:</string>
+    <string name="writeNameMix">Escribe el nombre de la mezcla</string>
+    <string name="quantity">Cantidad de mezcla (ml):</string>
+    <string name="writeQuantity">Escribe la cantidad de mezcla</string>
+    <string name="porcentageLiquid">Porcentaje de cada líquido:</string>
+
+
+
+
+    <string name="btnSave">Aceptar</string>
+    <string name="btnBack">Atras</string>
+    <string name="btnNext">Sguiente</string>
+    <string name="btnCancel">Cancelar</string>
+
+    <string name="btnServir">Servir</string>
+
+
+
+
+    <string name="led_1">LED 1</string>
+    <string name="led_2">LED 2</string>
+    <string name="dispositivos">Dispositivos Vinculados</string>
+    <string name="conectado">Conectado</string>
+    <string name="error">Error al Conectar</string>
+    <string name="primero_conectar">Primero debes conectar</string>
+
+
+</resources>

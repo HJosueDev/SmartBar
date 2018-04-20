@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details_mix"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hjdeveloper.smartbar.DetailsMixActivity">
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/BarraSuperior_nuevaMezcla"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGrey100"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtTitleDetailsMix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/detailsMix"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp" />
+
+        <ImageButton
+            android:id="@+id/button_atras_NuevaMezcla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="right"
+            android:contentDescription="Atrás"
+            android:textSize="12sp"
+            android:onClick="volverAtras" />
+    </RelativeLayout>
+
+    <!--Lista de bebidas Alcoholicas-->
+
+
+    <TextView
+        android:text="@string/Bebida1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:id="@+id/txtBebida1"
+        android:textSize="16sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="120dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:text="@string/Bebida2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/txtBebida2"
+        android:textSize="16sp"
+        android:layout_below="@+id/txtBebida1"
+        android:layout_alignLeft="@+id/txtBebida1"
+        android:layout_alignStart="@+id/txtBebida1" />
+
+    <TextView
+        android:text="@string/Bebida4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBebida4"
+        android:textSize="16sp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/txtBebida3"
+        android:layout_alignLeft="@+id/txtBebida2"
+        android:layout_alignStart="@+id/txtBebida2" />
+
+
+    <EditText
+        android:layout_width="80dp"
+        android:inputType="number"
+        android:background="@color/colorGrey200"
+        android:ems="10"
+        android:id="@+id/porcentageBebida1"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:textSize="16sp"
+        android:layout_alignBaseline="@+id/txtBebida1"
+        android:layout_alignBottom="@+id/txtBebida1"
+        android:layout_toRightOf="@+id/txtBebida2"
+        android:layout_toEndOf="@+id/txtBebida2"
+        android:layout_height="25dp"
+        android:editable="false"
+        android:enabled="false" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:inputType="number"
+        android:background="@color/colorGrey200"
+        android:ems="10"
+        android:id="@+id/porcentageBebida2"
+        android:textSize="16sp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@+id/txtBebida2"
+        android:layout_alignBottom="@+id/txtBebida2"
+        android:layout_alignLeft="@+id/porcentageBebida1"
+        android:layout_alignStart="@+id/porcentageBebida1"
+        android:editable="false"
+        android:enabled="false" />
+
+    <TextView
+        android:text="@string/Bebida3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBebida3"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/porcentageBebida2"
+        android:layout_alignLeft="@+id/txtBebida4"
+        android:layout_alignStart="@+id/txtBebida4" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:inputType="number"
+        android:background="@color/colorGrey200"
+        android:ems="10"
+        android:id="@+id/porcentageBebida3"
+        android:textSize="16sp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@+id/txtBebida3"
+        android:layout_alignBottom="@+id/txtBebida3"
+        android:layout_alignLeft="@+id/porcentageBebida2"
+        android:layout_alignStart="@+id/porcentageBebida2"
+        android:editable="false"
+        android:enabled="false" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:inputType="number"
+        android:background="@color/colorGrey200"
+        android:ems="10"
+        android:id="@+id/porcentageBebida4"
+        android:textSize="16sp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/txtBebida4"
+        android:layout_alignLeft="@+id/porcentageBebida3"
+        android:layout_alignStart="@+id/porcentageBebida3"
+        android:editable="false"
+        android:enabled="false" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:inputType="number"
+        android:background="@color/colorGrey200"
+        android:ems="10"
+        android:id="@+id/cantidadBebida2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="16sp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@+id/porcentageBebida2"
+        android:layout_alignBottom="@+id/porcentageBebida2"
+        android:layout_toRightOf="@+id/porcentageBebida2"
+        android:layout_toEndOf="@+id/porcentageBebida2"
+        android:editable="false"
+        android:enabled="false" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:inputType="number"
+        android:background="@color/colorGrey200"
+        android:ems="10"
+        android:id="@+id/cantidadBebida3"
+        android:textSize="16sp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@+id/porcentageBebida3"
+        android:layout_alignBottom="@+id/porcentageBebida3"
+        android:layout_alignLeft="@+id/cantidadBebida1"
+        android:layout_alignStart="@+id/cantidadBebida1"
+        android:editable="false"
+        android:enabled="false" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:inputType="number"
+        android:background="@color/colorGrey200"
+        android:ems="10"
+        android:id="@+id/cantidadBebida4"
+        android:textSize="16sp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@+id/porcentageBebida4"
+        android:layout_alignBottom="@+id/porcentageBebida4"
+        android:layout_alignLeft="@+id/cantidadBebida3"
+        android:layout_alignStart="@+id/cantidadBebida3"
+        android:editable="false"
+        android:enabled="false" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:inputType="number"
+        android:background="@color/colorGrey200"
+        android:ems="10"
+        android:id="@+id/cantidadBebida1"
+        android:textSize="16sp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@+id/porcentageBebida1"
+        android:layout_alignBottom="@+id/porcentageBebida1"
+        android:layout_alignLeft="@+id/cantidadBebida2"
+        android:layout_alignStart="@+id/cantidadBebida2"
+        android:editable="false"
+        android:enabled="false" />
+
+    <TextView
+        android:text="Nombre de Mezcla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/colorGrey800"
+        android:fontFamily="bold"
+        android:id="@+id/textView2"
+        android:paddingTop="75dp"
+        android:layout_alignTop="@+id/txtBebida1"
+        android:layout_alignLeft="@+id/txtBebida1"
+        android:layout_alignStart="@+id/txtBebida1" />
+
+    <TextView
+        android:text="Capacidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_alignLeft="@+id/textViewName"
+        android:layout_alignStart="@+id/textViewName"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textViewCapacidad" />
+
+    <TextView
+        android:text="Nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewName"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/txtBebida1"
+        android:layout_alignStart="@+id/txtBebida1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextName"
+        android:textSize="16sp"
+        android:background="@color/colorGrey200"
+        android:layout_alignBaseline="@+id/textViewName"
+        android:layout_alignBottom="@+id/textViewName"
+        android:layout_alignLeft="@+id/porcentageBebida1"
+        android:layout_alignStart="@+id/porcentageBebida1"
+        android:layout_height="25dp"
+        android:editable="false"
+        android:enabled="false" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:textSize="16sp"
+        android:background="@color/colorGrey200"
+        android:layout_alignBaseline="@+id/textViewCapacidad"
+        android:layout_alignBottom="@+id/textViewCapacidad"
+        android:layout_alignLeft="@+id/editTextName"
+        android:layout_alignStart="@+id/editTextName"
+        android:layout_height="25dp"
+        android:id="@+id/editTextCapacidad"
+        android:editable="false"
+        android:enabled="false" />
+
+    <Button
+        android:text="@string/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnServir"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/cantidadBebida4"
+        android:layout_toStartOf="@+id/cantidadBebida4"
+        android:layout_marginBottom="11dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cantidadBebida4"
+        android:layout_marginTop="24dp"
+        android:layout_above="@+id/btnServir"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/dispositivos" />
+
+
+    <Button
+        android:text="@string/led_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/led_1"
+        android:onClick="enviar"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textViewCapacidad"
+        android:layout_alignEnd="@+id/textViewCapacidad" />
+
+    <Button
+        android:text="@string/led_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/led_2"
+        android:onClick="enviar"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnServir"
+        android:layout_toEndOf="@+id/btnServir" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Estos son los colores personalizados-->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFB74D</color>
+
+
+    <!--Paleta de colores Grey-->
+    <color name="colorGrey50">#FAFAFA</color>
+    <color name="colorGrey100">#F5F5F5</color>
+    <color name="colorGrey200">#EEEEEE</color>
+    <color name="colorGrey300">#E0E0E0</color>
+    <color name="colorGrey400">#BDBDBD</color>
+    <color name="colorGrey500">#9E9E9E</color>
+    <color name="colorGrey600">#757575</color>
+    <color name="colorGrey700">#616161</color>
+    <color name="colorGrey800">#424242</color>
+    <color name="colorGrey900">#212121</color>
+
+    <!--Color Gray 900 con transparencia-->
+    <color name="colorGreyTrans900">#3A3A3A</color>
+
+    <!--Paleta de colores Orange-->
+
+    <color name="colorOrange50">#FFF3E0</color>
+    <color name="colorOrange100">#FFE0B2</color>
+    <color name="colorOrange200">#FFCC80</color>
+    <color name="colorOrange300">#FFB74D</color>
+    <color name="colorOrange400">#FFA726</color>
+    <color name="colorOrange500">#FF9800</color>
+    <color name="colorOrange600">#FB8C00</color>
+    <color name="colorOrange700">#F57C00</color>
+    <color name="colorOrange800">#EF6C00</color>
+    <color name="colorOrange900">#E65100</color>
+    <color name="colorOrangeA100">#FFD180</color>
+    <color name="colorOrangeA200">#FFAB40</color>
+    <color name="colorOrangeA400">#FF9100</color>
+    <color name="colorOrangeA700">#FF6D00</color>
+
+
+</resources>
+
